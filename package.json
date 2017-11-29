@@ -1,0 +1,42 @@
+{
+  "name": "hexagonalthis",
+  "version": "1.0.0",
+  "description": "TypeScript implementation of HexagonalThis",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "jest",
+    "start": "tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoespeon/hexagonalThis.git"
+  },
+  "keywords": [
+    "typescript",
+    "hexagonal",
+    "architecture"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoespeon/hexagonalThis/issues"
+  },
+  "homepage": "https://github.com/nicoespeon/hexagonalThis#readme",
+  "dependencies": {
+    "@types/jest": "^21.1.8",
+    "jest": "^21.2.1",
+    "ts-jest": "^21.2.3",
+    "typescript": "^2.6.2"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ],
+    "transform": {
+      "\\.(ts|tsx)$": "./node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "/src/(.*/)*.*\\.test\\.(ts|tsx|js)$"
+  }
+}
