@@ -1,0 +1,28 @@
+{
+  "name": "hexagonalthis",
+  "version": "1.0.0",
+  "description": "JavaScript implementation of HexagonalThis",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicoespeon/hexagonalThis.git"
+  },
+  "keywords": [
+    "javascript",
+    "hexagonal",
+    "architecture"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicoespeon/hexagonalThis/issues"
+  },
+  "homepage": "https://github.com/nicoespeon/hexagonalThis#readme",
+  "dependencies": {
+    "jest": "^21.2.1"
+  }
+}
